@@ -1,0 +1,91 @@
+/* Estilo del cuerpo */
+body {
+  text-align: center;
+  font-family: "Comic Sans MS", sans-serif;
+  background-image: url('../img/fondo.png');
+  background-size: cover;
+  /* Ajustar el tamaño de la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat;
+  /* Evitar que la imagen se repita */
+  background-attachment: fixed;
+  /* Hacer que la imagen de fondo permanezca fija mientras se desplaza la página */
+  background-color: rgba(134, 167, 174, 0.8);
+  /* Color de fondo con opacidad */
+  color: #2f2f38e1;
+}
+
+/* Estilo de la imagen */
+#imagen {
+  display: block;
+  margin: 0px auto;
+  /* Ajustar los márgenes horizontal y verticalmente */
+  width: 90%;
+  /* La imagen ocupará todo el ancho del contenedor padre */
+  height: 333px;
+  /* Altura fija de la imagen (ajusta este valor según tus necesidades) */
+  object-fit: cover;
+  /* Ajusta la imagen para cubrir todo el contenedor manteniendo la relación de aspecto */
+}
+
+/* Estilo de los botones */
+button {
+  margin-top: 30px;
+  font-size: 16px;
+  /* tamaño de fuente */
+  padding: 12px 24px;
+  /* espaciado interno */
+  border-radius: 4px;
+  /* radio de las esquinas */
+  border: none;
+  /* quitar borde */
+  cursor: pointer;
+  /* cursor de tipo mano */
+  background-color: rgba(26, 36, 145, 0.685);
+  /* color de fondo */
+  color: white;
+  /* color de texto */
+}
+
+button:hover {
+  background-color: #3a224fe1;
+  /* Cambia el color de fondo cuando se pase el cursor sobre el botón */
+}
+
+/* Estilo del nombre de la imagen */
+#nombreImagen {
+  display: inline-block;
+  margin: 30px;
+  font-family: "Kristen ITC";
+}
+
+/* Estilo para la cajetilla de resultados y botones */
+.resultado-container {
+  border: 2px solid rgb(224, 231, 19);
+  /* Borde de 2px de grosor de color rojo */
+  padding: 10px;
+  /* Espaciado interno para dar margen al contenido */
+  display: flex;
+  /* Utilizamos flexbox para organizar los elementos verticalmente */
+  flex-direction: column;
+  /* Organizar los elementos en columna */
+  align-items: center;
+  /* Centrar horizontalmente */
+  margin-top: 30px;
+  /* Ajustar el margen superior */
+}
+
+/* Estilo para el elemento con id "resultado" */
+#resultado {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(233, 17, 64);
+  margin-bottom: 10px;
+  /* Ajustar el margen inferior */
+}
+
+/* Estilo para el elemento con id "resultados" */
+#resultados {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(199, 17, 47);
+}

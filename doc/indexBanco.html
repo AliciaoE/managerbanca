@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Banca fidelización</title>
+
+    <link href="css/Estilo2.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="img/cabeza.png" id="imagen">
+        <h1> Banca Nueva Manager </h1>
+        <h2> Fidelización y gestión de usuarios </h2>
+        1.- Crear client/a. <br>
+        2.- Eliminar client/a. <br>
+        3.- Crear cuenta client/a. <br>
+        4.- Ingresar saldo cuenta de client/a. <br>
+        5.- Retirar saldo cuenta client/a.<br>
+        <h2>A tener en cuenta <br> </h2>
+        - El saldo inicial de todas las cuentas nuevas serán de 0 €. <br>
+        - Para crear un cliente no debe tener ninguna cuenta asociada”. <br>
+        - Usuarios ya creados para hacer pruebas:
+        ( 12345678A, José, Cortes,)
+        (23456789B, Vera, Perez, )
+        (34567890C, Bruno, sotillos)
+        (123456F, Alicia, Ontiveros)
+
+    </header>
+
+    <div class="resultado-container">
+        <div id="resultado"></div>
+        <div id="resultados"></div>
+    </div>
+
+    <button class="btn-primary" onclick="CrearCliente()"> 1.-Crear client/a. </button>
+    <button class="btn-primary" onclick="eliminarCliente()"> 2.-Eliminar client/a.</button>
+    <button class="btn-secondary" onclick="crearCuenta()"> 3.-Crear cuenta client/a. </button>
+    <button class="btn-secondary" onclick="ingresarDinero()"> 4.-Ingresar saldo client/a </button>
+    <button class="btn-secondary" onclick="retirarDinero()"> 5.-Retirar saldo client/a. </button>
+
+
+    <script src="js/cliente.js"></script>
+    <script src="js/clientes.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
