@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="esp">
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,8 @@
         4.- Ingresar saldo cuenta de client/a. <br>
         5.- Retirar saldo cuenta client/a.<br>
         <h2>A tener en cuenta <br> </h2>
-        - El saldo inicial de todas las cuentas nuevas serán de 0 €. <br>
+        - Los cclientes de prueba estan dados de alta pero no tienen cuenta asocciada, hay que crear primeramente una cuenta.<br>
+        -El saldo inicial de todas las cuentas nuevas serán de 0 €. <br>
         - Para crear un cliente no debe tener ninguna cuenta asociada”. <br>
         - Usuarios ya creados para hacer pruebas:
         ( 12345678A, José, Cortes,)
@@ -41,7 +42,9 @@
     <button class="btn-secondary" onclick="crearCuenta()"> 3.-Crear cuenta client/a. </button>
     <button class="btn-secondary" onclick="ingresarDinero()"> 4.-Ingresar saldo client/a </button>
     <button class="btn-secondary" onclick="retirarDinero()"> 5.-Retirar saldo client/a. </button>
-
+    <button class="btn-secondary" onclick="eliminarCuentasCliente()"> 6.-Eliminar cuenta cliente </button>
+    <button class="btn-primary" onclick="mostrarCliente()"> 2.-Mostrar datos cliente</button>
+    
 
     <script src="js/cliente.js"></script>
     <script src="js/clientes.js"></script>
